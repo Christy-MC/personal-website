@@ -1,0 +1,15 @@
+ h1 {
+        color: violet;
+    }
+    
+    button:hover {
+        background-color: red;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    
+    #title {
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }

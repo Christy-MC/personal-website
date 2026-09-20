@@ -1,17 +1,37 @@
- h1 {
-        color: green;
-    }
-    
-    button:hover {
-        background-color: blanchedalmond;
-        cursor: pointer;
-        font-size: 30px;
-    }
-    
-    #title {
+ :root{
+    --titleSectionPrimaryColor: green; 
+ }
+ 
+ #title {
         
         text-align: center;
        padding-top: 200px;
        background-image: url('../images/bgimage.jpg');
        background-position: center top;
+        color: var(--titleSectionPrimaryColor)
     }
+    
+    .title-section-button{
+        color: var(--titleSectionPrimaryColor);
+        border: solid var(--titleSectionPrimaryColor) 1px;
+        padding: 15px 20px;
+        background-color: transparent;
+        border-radius: 5px;
+
+    }
+
+
+
+
+    button:hover {
+        background-color: green;
+        cursor: pointer;
+        
+    }
+    
+    
+
+
+    
+    
+    

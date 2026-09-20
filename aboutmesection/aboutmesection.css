@@ -1,3 +1,19 @@
 #aboutme{ 
     text-align: center;
 }
+
+.aboutme-icons {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.aboutme-icon {
+    margin: 7px;
+    color: green;
+}
+
+.aboutme-icon:hover {
+    cursor: pointer;
+    color: var(--titleSectionTertiaryColor)
+
+}
